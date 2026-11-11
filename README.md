@@ -75,6 +75,7 @@ export FLASK_APP=web_app
 flask run
 ```
 
+To stop the local web server while it is running, press "control+c" from the termal.
 
 
 ## Testing

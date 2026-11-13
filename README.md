@@ -42,7 +42,7 @@ Create a local ".env" file and store your environment variable in there:
 ```sh
 # this is the ".env" file...
 
-ALPHAVANTAGE_API_KEY="______________"
+ALPHAVANTAGE_API_KEY="__________________"
 ```
 
 ## Usage

@@ -10,7 +10,7 @@ def test_data_fetching():
 
     assert isinstance(stocks_df, DataFrame)
 
-    assert "timestamp" in stocks_df.columns
+    assert "timestamp" in stocks_df.rows
     assert "adjusted_close" in stocks_df.columns
 
     assert len(stocks_df) >= 100

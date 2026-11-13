@@ -7,6 +7,7 @@ pytest
 
 
 
-# you might need these for the optional bonus:
-# pandas
-# plotly
+# for the stocks excersise
+pandas
+plotly
+python-dotenv

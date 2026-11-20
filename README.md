@@ -1,4 +1,4 @@
-# QualityControlExcersise_jh2774
+# my-first-app-fall-2026
 
 ## Prerequisites
 
@@ -8,11 +8,11 @@ Install python version 3.x (for example using Anaconda).
 
 some instructions here
 
-1. Clone [the repo](https://github.com/jh2774/QualityControlExcersise_jh2774) from GitHub, and put it somewhere (like your Desktop).
+1. Clone [the repo](https://github.com/s2t2/my-first-app-fall-2026) from GitHub, and put it somewhere (like your Desktop).
 2. Navigate to the local repo from the command line (for example if on your desktop):
 
 ```sh
-cd ~/Desktop/QualityControlExcersise_jh2774
+cd ~/Desktop/my-first-app-fall-2026
 ```
 
 3. Create a new Anaconda virtual environment called "rps-env" (first time only):

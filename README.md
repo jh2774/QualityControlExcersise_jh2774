@@ -87,6 +87,8 @@ Run the web app (the view in the browser at http://localhost:5000/):
 #if we have the FLASH_APP=web_app env var in the ".env" fule:
 flask run
 
+# To stop the local web server while it is running, press "control+c" from the terminal.
+
 # Mac OS:
 FLASK_AP=web_app flask run
 

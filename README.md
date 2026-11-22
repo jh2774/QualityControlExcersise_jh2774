@@ -1,4 +1,4 @@
-# QualityCOntrolExcersise_jh2774
+# QualityControlExcersise_jh2774
 
 ## Prerequisites
 

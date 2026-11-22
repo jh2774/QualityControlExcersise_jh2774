@@ -5,7 +5,8 @@
 
 pytest
 
-
+#production server:
+gunicorn
 
 # for the stocks excersise
 pandas

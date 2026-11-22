@@ -16,5 +16,3 @@ flask
 pandas
 plotly
 python-dotenv
-
-

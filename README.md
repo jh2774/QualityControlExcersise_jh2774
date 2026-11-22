@@ -84,7 +84,7 @@ python -m app.stocks
 Run the web app (the view in the browser at http://localhost:5000/):
 
 ```sh
-#if we have the FLASK_APP=web_app env var in the ".env" file (we dont, you need to type "export " before it first!):
+#if we have the FLASK_APP=web_app env var in the ".env" file (we dont, you need to type "export FLASK_APP=web_app" before typing "flask run" first!):
 flask run
 
 # To stop the local web server while it is running, press "control+c" from the terminal.

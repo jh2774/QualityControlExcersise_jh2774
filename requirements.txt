@@ -9,6 +9,9 @@ pytest
 #production server:
 gunicorn
 
+# for the web app exercise
+flask
+
 # for the stocks excersise
 pandas
 plotly

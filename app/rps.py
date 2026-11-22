@@ -8,11 +8,6 @@ import random
 # 2. FOLLOWED BY ANY CONSTANTS
 VALID_OPTIONS = ["rock", "paper", "scissors"]
 
-
-def generate_random_choice():
-    return random.choice(VALID_OPTIONS)
-
-
 # 3. FUNCTIONS OR CLASSES
 
 def determine_winner(u, c):
@@ -67,8 +62,7 @@ if __name__ == "__main__":
 
     # GENERATE RANDOM COMPUTER CHOICE
 
-        #computer_choice = random.choice(VALID_OPTIONS)
-    computer_choice = generate_random_choice()
+    computer_choice = random.choice(VALID_OPTIONS)
     print("COMP:", computer_choice)
 
     # DETERMINE THE WINNER

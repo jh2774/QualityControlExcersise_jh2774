@@ -43,8 +43,9 @@ Create a local ".env" file and store your environment variable in there:
 # this is the ".env" file...
 
 export ALPHAVANTAGE_API_KEY=example
-# also tell flask where our web app is define:
+# you will need an actual API key to replace "example" here.
 export FLASK_APP=web_app
+# also tell flask where our web app is define.
 ```
 
 ## Usage

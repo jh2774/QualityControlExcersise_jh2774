@@ -42,12 +42,11 @@ Create a local ".env" file and store your environment variable in there:
 ```sh
 # this is the ".env" file...
 
-ALPHAVANTAGE_API_KEY="__________________"
+export ALPHAVANTAGE_API_KEY=example
+# you will need an actual API key to replace "example" here.
+export FLASK_APP=web_app
+# also tell flask where our web app is define.
 ```
-
-# also tell flask where our web app is define:
-FLASK_APP=web_app
-
 
 ## Usage
 
@@ -84,7 +83,7 @@ python -m app.stocks
 Run the web app (the view in the browser at http://localhost:5000/):
 
 ```sh
-#if we have the FLASK_APP=web_app env var in the ".env" file (we dont, you need to type "export " before it first!):
+#if we have the FLASK_APP=web_app env var in the ".env" file (we dont, you need to type "export FLASK_APP=web_app" before typing "flask run" first!):
 flask run
 
 # To stop the local web server while it is running, press "control+c" from the terminal.
